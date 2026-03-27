@@ -13,3 +13,7 @@ for (let i = 0; i < notas.length; i++) {
 // 4. Calcular el promedio (suma total dividida por la cantidad de elementos)
 let promedio = sumaTotal / notas.length;
 
+// 5. Mostrar resultados
+console.log("Notas registradas:", notas);
+console.log("Suma total:", sumaTotal);
+console.log("El promedio del aprendiz es:", promedio.toFixed(2));

@@ -6,4 +6,10 @@ let notas = [4.5, 3.8, 5.0, 2.5, 4.2, 3.0];
 let sumaTotal = 0;
 
 // 3. Recorrer el arreglo usando un bucle for clásico
-for (let i = 0; i <
+for (let i = 0; i < notas.length; i++) {
+    sumaTotal += notas[i]; // Sumamos cada nota a la variable acumuladora
+}
+
+// 4. Calcular el promedio (suma total dividida por la cantidad de elementos)
+let promedio = sumaTotal / notas.length;
+
